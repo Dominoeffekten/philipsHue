@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hue Development</title>
+</head>
+<body>
+    <input id="onBtn" type="button" value="ON!" onclick="on()">
+    <input id="offBtn" type="button" value="OFF!" onclick="off()">
+    <input id="toggleBtn" type="button" value="TOGGLE!" onclick="toggleState()">
+    <br>
+    <input id="sliderBri" type="range" min="0" max="254" value="127" label="text">
+    <label for="sliderBri">Brightness</label>
+    <br>
+    <input id="sliderHue" type="range" min="0" max="65535" value="32768">
+    <label for="sliderHue">Hue</label>
+</body>
+<script src="js/jshue.js"></script>
+<script src="js/main.js"></script>
+</html>
